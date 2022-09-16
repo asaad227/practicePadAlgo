@@ -4,6 +4,7 @@ let arrayOdds = [
   81, 83, 85, 89, 91, 93, 95, 97, 99,
 ];
 let array1 = [1, 3, 8, 6, 9];
+
 let arrayEven = [
   2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40,
   42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78,
@@ -36,7 +37,7 @@ console.log('i am upper class', low, high)
   return -1;
 }
 
-console.log(bSearch(arrayEven, 101))
+console.log(bSearch(array1, 26))
 
 
 // function array(e){
