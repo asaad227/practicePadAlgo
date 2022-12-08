@@ -6,7 +6,7 @@ function wave(str){
         //need to splited the words
         letters[i]=letters[i].toUpperCase()
         //capitalized all the index's
-        if(letters[i] !== ""){
+        if(letters[i] !== " "){
             //checking empty spaces 
             newArr.push(letters.join(""))
             //join rest of the letters
